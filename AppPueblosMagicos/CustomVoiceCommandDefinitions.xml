@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="es-mx" Name="CustomCommands">
+   <CommandPrefix>Escucha</CommandPrefix>
+    <Example> Abrir Pueblos Magicos </Example>
+
+    <Command Name="AbrirAppPueblosMagicos">
+      <Example>Abrir App Pueblos Magicos</Example>
+      <ListenFor> Abrir App Pueblos </ListenFor>
+      <Feedback> Iniciando Aplicacion Pueblos Magicos </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="AbrirPueblosMagicosJalisco">
+      <Example>Mostrar Pueblos Jalisco</Example>          
+      <ListenFor> Mostrar Pueblos Jalisco </ListenFor>    
+      <Feedback> Mostrando Pueblos Magicos de Jalisco </Feedback>
+      <Navigate/>          
+    </Command>
+
+    <Command Name="AbrirPueblosMagicosGuanajuato">
+      <Example> Mostrar Pueblos Guanajuato  </Example>
+      <ListenFor> Mostrar Pueblos Guanajuato </ListenFor>
+      <Feedback> Mostrando Pueblos Magicos de Guanajuato </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="AbrirPueblosMagicosTamaulipas">
+      <Example> Mostrar Pueblos Tamaulipas  </Example>
+      <ListenFor> Mostrar Pueblos Tamaulipas </ListenFor>
+      <Feedback> Mostrando Pueblos Magicos de Tamaulipas </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="AbrirPueblosMagicosVeracruz">
+      <Example> Mostrar Pueblos Veracruz  </Example>
+      <ListenFor> Mostrar Pueblos Veracruz </ListenFor>
+      <Feedback> Mostrando Pueblos Magicos de Veracruz </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="AbrirPueblosMagicosAguascalientes">
+      <Example> Mostrar Pueblos Aguascalientes  </Example>
+      <ListenFor> Mostrar Pueblos Aguascalientes </ListenFor>
+      <Feedback> Mostrando Pueblos Magicos de Aguascalientes </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="AgregarNuevoPuebloMagico">
+      <Example> Agregar Pueblo </Example>
+      <ListenFor> Agregar Pueblo </ListenFor>
+      <Feedback> Agregr nuevo Pueblo Magico </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="EscucharPuebloNativo">
+      <Example> Escuchar Nativo </Example>
+      <ListenFor> Escuchar Nativo </ListenFor>
+      <Feedback> Idioma por default Nativo </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="EscucharPuebloFrances">
+      <Example> Escuchar Frances </Example>
+      <ListenFor> Escuchar No Nativo </ListenFor>
+      <Feedback> Idioma por default Frances </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="EliminarUltimoPueblo">
+      <Example> Eliminar Ultimo Pueblo </Example>
+      <ListenFor> Eliminar Pueblo al final </ListenFor>
+      <Feedback> Eliminando ultimo pueblo de la lista </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="PueblosAgregadosActualmente">
+      <Example> Cantidad De Pueblo </Example>
+      <ListenFor> Cantidad de pueblos </ListenFor>
+      <Feedback> Numero de Pueblos Magicos en la App </Feedback>
+      <Navigate/>
+    </Command>
+   
+  <Command Name="Magicos">
+      <Example> Mostrar los pueblos de {alternatives} </Example>
+      <ListenFor>Mostrar los pueblos de {alternatives}</ListenFor>
+      <Feedback>Mostrando los pueblos de {alternatives} </Feedback>
+      <Navigate/>
+    </Command>
+
+     <PhraseList Label="alternatives">
+      <Item>Jalisco</Item>
+      <Item>Guanajuato</Item>
+       <Item>Veracruz</Item>
+    </PhraseList>
+  
+  </CommandSet>  
+
+</VoiceCommands>
